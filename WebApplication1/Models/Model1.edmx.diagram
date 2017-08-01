@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5d2a76722643458db09436e163427fe5" Name="Diagram1">
+        <EntityTypeShape EntityType="smsModel.Customer" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="smsModel.CustomerCategory" Width="1.5" PointX="1.5" PointY="9.75" />
+        <EntityTypeShape EntityType="smsModel.CustomerLedger" Width="1.5" PointX="3" PointY="5" />
+        <EntityTypeShape EntityType="smsModel.Deposit" Width="1.5" PointX="13" PointY="8.125" />
+        <EntityTypeShape EntityType="smsModel.DepositHead" Width="1.5" PointX="10.75" PointY="8.375" />
+        <EntityTypeShape EntityType="smsModel.Expence" Width="1.5" PointX="8.25" PointY="10.625" />
+        <EntityTypeShape EntityType="smsModel.ExpenceHead" Width="1.5" PointX="3.75" PointY="11" />
+        <EntityTypeShape EntityType="smsModel.ExpenceSubHead" Width="1.5" PointX="6" PointY="10.875" />
+        <EntityTypeShape EntityType="smsModel.PaymentMode" Width="1.5" PointX="0.75" PointY="5.5" />
+        <EntityTypeShape EntityType="smsModel.Staff" Width="1.5" PointX="11" PointY="3.125" />
+        <EntityTypeShape EntityType="smsModel.StaffCategory" Width="1.5" PointX="8.75" PointY="4" />
+        <EntityTypeShape EntityType="smsModel.Supplier" Width="1.5" PointX="3.75" PointY="1.25" />
+        <EntityTypeShape EntityType="smsModel.SupplierLedger" Width="1.5" PointX="6" PointY="5" />
+        <AssociationConnector Association="smsModel.FK__Customer__FK_Cus__145C0A3F" />
+        <AssociationConnector Association="smsModel.FK__CustomerL__FK_Cu__173876EA" />
+        <AssociationConnector Association="smsModel.FK__CustomerL__FK_Cu__182C9B23" />
+        <AssociationConnector Association="smsModel.FK__Deposit__FK_Depo__276EDEB3" />
+        <AssociationConnector Association="smsModel.FK__Expence__FK_Expe__2F10007B" />
+        <AssociationConnector Association="smsModel.FK__Expence__FK_Expe__300424B4" />
+        <AssociationConnector Association="smsModel.FK__ExpenceSu__FK_Ex__2C3393D0" />
+        <AssociationConnector Association="smsModel.FK__SupplierL__FK_Su__22AA2996" />
+        <AssociationConnector Association="smsModel.FK__Staff__FK_Staff___1CF15040" />
+        <AssociationConnector Association="smsModel.FK__SupplierL__FK_Su__21B6055D" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
